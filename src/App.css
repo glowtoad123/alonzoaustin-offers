@@ -1,3 +1,59 @@
+.card {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.portfolioProp {
+  background-color: whitesmoke;
+  width: 330px;
+  height: max-content;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.showcaseImage {
+  display: inline-block;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 330px;
+  height: 150px;
+  margin: auto;
+  vertical-align: middle;
+  display: flex;
+  justify-self: center;
+}
+
+.project {
+  width: 300px;
+  display: inline-block;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  vertical-align: top;
+}
+
+.title {
+  margin-top: 0;
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 20px;
+  box-shadow: 0 25.6px 57.6px  rgba(.22, 22, 22, .22) inset, 0 25.6px 57.6px 0 rgba(0, 0, 0, .22), 0 4.8px 14.4px 0 rgba(0, 0, 0, .18), 0 4.8px 14.4px 0 rgba(0, 0, 0, .18);
+}
+
+.description {
+  width: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +91,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#elements {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 2;
+}
+
+#input {
+  display: inline-block;
+  
+}
+
+#log {
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+  background-color: #fffec6;
+}
+
+#log>p>img {
+  width: 75%;
+}
+
+#log>pre {
+  width: inherit;
+  overflow-x: scroll;
+}
+
+#log>pre>code {
+  width: inherit;
+  font-family: monospace;
+  
+}
+
+
+pre {
+  background-color:#F9F8C1;
 }
